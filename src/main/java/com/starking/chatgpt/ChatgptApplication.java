@@ -14,6 +14,7 @@ public class ChatgptApplication {
 				.model("text-davinci-003")
 				.prompt("Escreva uma história de Assassin's creed do game")
 				.maxTokens(100)
+				.temperature(0.10)
 				.build();
 		
 		System.out.println(service.createCompletion(request).getChoices());
