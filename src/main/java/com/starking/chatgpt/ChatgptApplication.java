@@ -12,7 +12,7 @@ public class ChatgptApplication {
 		
 		CompletionRequest request = CompletionRequest.builder()
 				.model("text-davinci-003")
-				.prompt("Escreva uma história de Assassin's creed do game")
+				.prompt("Escreva uma história do Batman")
 				.maxTokens(100)
 				.temperature(0.10)
 				.build();
